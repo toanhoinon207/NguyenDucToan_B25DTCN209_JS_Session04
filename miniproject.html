@@ -107,7 +107,7 @@
                             console.log("--- Dự toán phí bảo trì sách theo năm ---");
                             for(let i=1; i<=year;i++){
                                 sum=qty*fee;
-                                console.log(`Năm ${i}: ${sum} VNĐ (Đơn giá: ${fee.toFixed(0)}/cuốn)`,);
+                                console.log(`Năm ${i}: ${sum} VNĐ (Đơn giá: ${fee}/cuốn)`);
                                 fee=fee*1.1;
                             }
                             alert("Đã hoàn thành bảng dự toán tại Console.");
@@ -145,4 +145,5 @@
             manageLibrary();
         </script>
     </body>
+
 </html>
